@@ -21,7 +21,7 @@ wagmi + RainbowKit  →  <GatedContent />  →  /api/gated-content (server)
 ## Run it
 
 ```bash
-git clone https://github.com/douglasborthwick-crypto/skyegate-nextjs-starter
+git clone https://github.com/skyemeta/skyegate-nextjs-starter
 cd skyegate-nextjs-starter
 npm install
 cp .env.local.example .env.local      # fill in your keys
@@ -76,7 +76,7 @@ To move a key to a different domain, use **Move License to New Domain** at [skye
 
 ## Deploy on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdouglasborthwick-crypto%2Fskyegate-nextjs-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fskyemeta%2Fskyegate-nextjs-starter)
 
 After clicking, set `NEXT_PUBLIC_SKYE_LICENSE_KEY` and `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID` in the Vercel project's environment variables. The first request from your custom production domain auto-binds the license.
 

@@ -4,7 +4,7 @@
 
 Please report security issues privately, through GitHub's private vulnerability reporting:
 
-**[Report a vulnerability](https://github.com/douglasborthwick-crypto/skyegate-nextjs-starter/security/advisories/new)**
+**[Report a vulnerability](https://github.com/skyemeta/skyegate-nextjs-starter/security/advisories/new)**
 
 That opens an advisory visible only to you and the maintainers. If you cannot use GitHub, email douglas@skyemeta.com.
 
