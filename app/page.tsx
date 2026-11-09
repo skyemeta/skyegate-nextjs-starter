@@ -45,7 +45,7 @@ export default function Home() {
     return () => { cancelled = true; };
   }, [address, signMessageAsync]);
 
-  async function handlePass(jwt: string, pqJwt?: string) {
+  async function handlePass(jwt: string, pqJwt?: string, receipt?: string) {
     setError(null);
     setSecret(null);
     setPqStatus(null);
@@ -53,7 +53,7 @@ export default function Home() {
       const res = await fetch('/api/gated-content', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ jwt, pqJwt }),
+        body: JSON.stringify({ jwt, receipt, pqJwt }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Request failed');
